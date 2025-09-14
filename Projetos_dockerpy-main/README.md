@@ -42,5 +42,21 @@ pip install -r requirements.txt
 
 # Rodar o projeto
 django-admin --version
+# 1. Ative a virtual environment (se ainda não estiver ativa)
+#criar        >> python3 -m venv env
+#ativar       >> source env/bin/activate
+#desativar   só em caso de necessidade >> deactivate 
+
+# 2. Entre na pasta do projeto Django
+cd src
+
+# 3. Rode o servidor de desenvolvimento
 python manage.py runserver
+
+python manage.py runserver
+
+# Atualizando o git
+git add .
+git commit -m "Atualização do projeto: ajustes finais"
+git push origin main   >>>> enviar os arquvos
 
