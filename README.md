@@ -28,3 +28,5 @@ Projeto de exemplo utilizando **Python**, **Docker** e **pyenv** para gerenciame
 ```bash
 pyenv install 3.12.2
 pyenv local 3.12.2
+
+
